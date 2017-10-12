@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item android:drawable="@mipmap/load_more_anim0" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim1" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim2" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim3" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim4" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim5" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim6" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim7" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim8" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim9" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim10" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim11" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim12" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim13" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim14" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim15" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim16" android:duration="40"/>
+    <item android:drawable="@mipmap/load_more_anim17" android:duration="40"/>
+</animation-list>

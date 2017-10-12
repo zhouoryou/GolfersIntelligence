@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/user_img"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:textSize="11sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_centre_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="2dp"
+        android:textColor="#f78500"
+        android:textSize="10sp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@mipmap/choose_several_several_icon"
+        />
+
+    <TextView
+        android:id="@+id/tv_few_even_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"
+        android:textColor="#f78500"
+        android:textSize="10sp"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@mipmap/even_the_red_icon"
+        />
+
+</LinearLayout>

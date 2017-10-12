@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/sm_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="26dp"
+        >
+
+        <TextView
+            android:id="@+id/all"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/shape_solidf9c134_5cornersleft_2strokedddddd"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:text="全选"/>
+
+        <TextView
+            android:id="@+id/versa"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:background="@drawable/shape_solidfffffff_2strokedddddd"
+            android:textColor="#333333"
+            android:text="全选"/>
+
+        <TextView
+            android:id="@+id/league"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/shape_solidffffff_5cornersright_2strokedddddd"
+            android:textSize="13sp"
+            android:textColor="#333333"
+            android:text="五大联赛"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/popup_sm_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="148dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="43dp"
+            android:background="@mipmap/s_m_select_list_bg"/>
+        
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:layout_marginBottom="7dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777777"
+            android:textSize="13sp"
+            android:text="一共有"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E21414"
+            android:textSize="13sp"
+            android:text="0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777777"
+            android:textSize="13sp"
+            android:text="个比赛"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="37dp">
+
+        <TextView
+            android:id="@+id/finish"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="取消"
+            android:background="#e2e2e2"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/yes"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="确定"
+            android:background="#f9C134"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+        
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
